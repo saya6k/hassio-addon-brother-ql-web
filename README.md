@@ -6,6 +6,8 @@ Installs Brother-QL-Web into a docker container
 
 [https://github.com/dersimn/brother_ql_web](https://github.com/dersimn/brother_ql_web) as Home Assistant add-on.
 
+For issues, please go to [the issue tracker](https://github.com/saya6k/hassio-addons/issues/issues).
+
 ## Installation
 
 The installation of this add-on is pretty straightforward and not different in
