@@ -14,7 +14,7 @@ ports_description:
   8013/tcp: Web interface
 panel_icon: mdi:printer-pos
 panel_title: Brother-QL-Web
-panel_admin: true  
+panel_admin: false  
 ingress: true
 ingress_port: 8013
 # ingress_entry: /
