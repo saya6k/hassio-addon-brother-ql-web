@@ -1,3 +1,6 @@
+## [0.1.3] - 2024-03-05
+- Make iFrame panel non admin
+
 ## [0.1.2] - 2024-01-26
 - Update README.md
 
