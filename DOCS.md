@@ -74,14 +74,6 @@ Label size inserted in your printer. Defaults to 62.
 Label orientation, defaults to "standard". To turn your text by 90°,
 state "rotated".
 
-### Option: `fonts_directory`
-
-**Note**: _Directory should be placed in `/config/`_
-
-You can customize directory to store fonts.
-
-Default directory is `/config/addons_config/brother-ql-web/fonts/`.
-
 ### Option: `log_level`
 
 The `log_level` option controls the level of log output by the addon and can
@@ -112,7 +104,7 @@ All in all, the web server offers:
 
 **Note**: _Remember to restart the add-on when you newly added fonts._
 
-You can use custom fonts in `fonts_directory`.
+You can use custom fonts in `/addon_configs/********_brother-ql-web/fonts`.
 
 It should be .ttf/.otf fonts format.
 

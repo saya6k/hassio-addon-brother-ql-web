@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/ubuntu-base:9.0.2
+ARG BUILD_FROM=ghcr.io/hassio-addons/ubuntu-base:9.0.5
 
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
@@ -21,7 +21,7 @@ RUN \
         fontconfig \
         poppler-utils \
     \
-    && git clone https://github.com/dersimn/brother_ql_web.git ${APP_DIR} --branch v2.1.7 \
+    && git clone https://github.com/dersimn/brother_ql_web.git ${APP_DIR} --branch v2.1.9 \
     && python3 -m pip install -r ${APP_DIR}/requirements.txt \
     && apt-get purge -y --auto-remove \
         git \

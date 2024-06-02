@@ -1,3 +1,9 @@
+## [0.2.0] - 2024-06-06
+- Bump base image to 9.0.5
+- Bump brother-ql-web version to 2.1.9
+- Use `addon_config` instead of `/config`
+- Remove iFrame panel
+
 ## [0.1.3] - 2024-03-05
 - Make iFrame panel non admin
 
