@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/ubuntu-base:9.0.5
+ARG BUILD_FROM
 
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
@@ -15,7 +15,7 @@ RUN \
         git \
         build-essential \
         cmake \
-        python3.10 \
+        python3 \
         python3-dev \
         python3-pip \
         fontconfig \

@@ -1,3 +1,6 @@
+## [0.2.1] - 2024-07-20
+- Update README.md
+
 ## [0.2.0] - 2024-06-06
 - Bump base image to 9.0.5
 - Bump brother-ql-web version to 2.1.9
