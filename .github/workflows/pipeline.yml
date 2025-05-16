@@ -90,8 +90,8 @@ jobs:
             cd ..
           else
             # If directory doesn't exist or isn't a git repo, initialize just this submodule
-            git submodule init mcp-grocy-api
-            git submodule update --remote mcp-grocy-api
+            git submodule init brother-ql-web
+            git submodule update --remote hassio-addon-brother-ql-web
           fi
           
           # Commit the updated submodule
