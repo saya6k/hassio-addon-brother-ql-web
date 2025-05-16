@@ -91,7 +91,7 @@ jobs:
           else
             # If directory doesn't exist or isn't a git repo, initialize just this submodule
             git submodule init brother-ql-web
-            git submodule update --remote hassio-addon-brother-ql-web
+            git submodule update --remote brother-ql-web
           fi
           
           # Commit the updated submodule
